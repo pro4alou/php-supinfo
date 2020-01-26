@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Document sans nom</title>
+<link rel="stylesheet" href="style.css"/>
+<link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+<!--<img src="background.jpg" alt="maquette"/>-->
+<div id="corps">
+<div id="slogan"><h2>Apprendre pour mieux entreprendre!</h2></div>
+
+<img src="file:///C|/Users/ADMIN/Documents/diatta_landing.jpg" alt="mon image" />
+
+<div class="m1"><a href="accueil.html">Accueil</a></div>
+<div class="m2"><a href="service.html">Service</a> </div>
+<div class="m3"><a href="presentation.html">Presentation</a> </div>
+<div class="m4"><a href="contact.html">Contact</a> </div>
+<div id="text1"><h2>BIENVENUE SUR MA PAGE D'ACCUEIL</h2>
+<p>
+1-On propose d’enlever UML en L1 dans la mesure où UML fait appel à la notion de conception Orientée Objet,<br/> ce qui nécessité une maitrise de certaines notions préalables telles que : la programmation procédurale etc…
+Pour les mêmes raisons on préconise que JAVA également soit enlever, <br/> étant donné que c’est un langage qui été conçu pour permettre la POO (Programmation Orientée Objet).
+2-Remplacer UML/JAVA par Python car c’est un langage multi paradigme (programmation procédurale, POO, etc…) <br/> et un langage interprété. Ce qui permettra à l’étudiant, dans la mise pratique des algorithmes, de voir la différence entre un langage compilé (langage c) et un langage interprété(python).
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
