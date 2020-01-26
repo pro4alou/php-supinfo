@@ -1,0 +1,130 @@
+
+/* CSS Document */
+body
+{
+background-color:#7754A7;
+}
+
+#corps{
+position:absolute;/*permet de faire positionner le composant en absolu */
+float:left;/*faire flotter le composant à gauche*/
+left:180px;/*faire decaler le composant à gauche de 180px*/
+background-image:url(background.jpg);/*permet d'importer la maquette du site web*/
+background-repeat:no-repeat;/*permet de ne pas afficher l'image(maquette) en mozaique*/
+width:1000px;/*permet de definir la largeur de notre site web*/
+height:1000px;/*permet de definir la hauteur de notre site web*/
+}
+.m1{
+position:absolute;
+float:left;
+left:75px;
+top:178px;/*permet de definir un decalage du haut vers le bas*/
+font-size:24px;/*permet de definir la taille des ecritures*/
+font-family:Arial, Helvetica, sans-serif;/*permet de definir la police des ecritures*/
+}
+.m2{
+position:absolute;
+float:left;
+left:280px;
+top:178px;
+font-size:24px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.m3{
+position:absolute;
+float:left;
+left:550px;
+top:178px;
+font-size:24px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.m4{
+position:absolute;
+float:left;
+left:850px;
+top:178px;
+font-size:24px;
+font-family:Arial, Helvetica, sans-serif;
+}
+a
+{
+color:#FFFFFF;/*permet de definir la couleur des liens*/
+text-decoration:none;/*enlever le trait de soulignement des liens*/
+border:1px solid #003366;/*creer une bordure de taille 1px en trait continu et de couleur noire*/
+border-radius:10px 6px  10px 6px;/*arrondir les angles de notre bordure*/
+background-color:#003366;
+
+}
+#text1
+{
+position:absolute;
+float:left;
+left:100px;
+right:90px;
+top:210px;
+font-size:18px;
+font-family:Arial, Helvetica, sans-serif;
+color:#006699;
+}
+a:hover{/*permet de changer l'aspect des liens lorsqu'on survole avec le curseur*/
+text-decoration:underline;
+color: #009900;
+font-size:20px;
+font-style:italic;
+background-color: #FFFFFF;
+}
+img{
+position:absolute;
+float:left;
+width:363px;
+height:171.5px;
+}
+/*Animation*/
+@keyframes titre {
+	from {
+	margin-left:0;
+	}
+	to {
+	margin-left:100px;
+	}
+				}
+-webkit-@keyframes titre {
+	from {
+	margin-left:0;
+	}
+	to {
+	margin-left:100px;
+	}
+				}
+
+#slogan h2{
+position:absolute;
+float:left;
+left:400px;
+top:30px;
+color:#FFFFFF;
+font-family:"Times New Roman", Times, serif;
+-webkit-animation:titre 2s infinite alternate ease;
+animation:titre 2s infinite alternate ease;
+}
+#text1 h2
+{
+transition:all 1s linear;/*all=appliquer les proprietes du h1:hover sur la transition en une duree de 1s avecle type lineaire*/
+/*transition:all 1s ease; avec ease on a une acceleration et deceleration en fin de mvt*/ 
+}
+
+#text1 h2:hover
+{
+margin-left:50px;/*permet de creer une marge exterieure de 50px de la gauche vers la droite*/
+color:green;/*permet de colorier le titre en vert*/
+text-decoration:underline;/*permet de souligner le titre*/ 
+}
+#tab{
+position:absolute;
+float:left;
+left:250px;
+top:250px;
+font-size:24px;
+font-family:Arial, Helvetica, sans-serif;
+
+}
