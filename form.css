@@ -1,0 +1,91 @@
+/* CSS Document */
+#entete{
+	position:absolute;
+	float:left;
+	left:200px;
+	height:190px;
+	width:1000px;
+	background-color:#03C;
+	border-radius:6px 10px 6px 10px;
+	}
+#bar{
+	position:absolute;
+	float:left;
+	left:200px;
+	top:200px;
+	height:50px;
+	width:1000px;
+	background-color: #060;
+	border-radius:6px 10px 6px 10px;
+	}
+.m1{
+	position:absolute;
+	float:left;
+	left:100px;
+	top:10px;
+	font-size:26px;
+	font-family: "Times New Roman", Times, serif;}
+.m2{
+	position:absolute;
+	float:left;
+	left:300px;
+	top:10px;
+	font-size:26px;
+	font-family: "Times New Roman", Times, serif;}
+.m3{
+	position:absolute;
+	float:left;
+	left:500px;
+	top:10px;
+	font-size:26px;
+	font-family: "Times New Roman", Times, serif;}
+.m4{
+	position:absolute;
+	float:left;
+	left:750px;
+	top:10px;
+	font-size:26px;
+	font-family: "Times New Roman", Times, serif;}
+#corps{
+	position:absolute;
+	float:left;
+	left:200px;
+	top:252px;
+	height:589px;
+	width:1000px;
+	background-color: #666;
+	border-radius:6px 10px 6px 10px;
+	}
+	
+#pied{
+	position:absolute;
+	float:left;
+	left:200px;
+	top:842px;
+	margin-bottom:20px;
+	height:50px;
+	width:1000px;
+	background-color: #060;
+	border-radius:6px 10px 6px 10px;
+	}
+
+.sig{
+	position:absolute;
+	float:left;
+	left:10px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	top:15px;
+	}
+.sid{
+	position:absolute;
+	float:left;
+	left:700px;
+	font-size:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	float:right;
+	top:15px;
+	}
+
+body{
+	background-color: #F30;}
